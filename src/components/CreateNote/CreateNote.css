@@ -1,0 +1,73 @@
+.CreateForm {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(236, 156, 156, 0),
+    rgb(101, 246, 246)
+  );
+  height: 62.5vh;
+  padding: 78px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FormContent > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NoteForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TextHead {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  font-size: 27px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.NoteText {
+  width: 400px;
+  height: 100px;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.CreateNoteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  background-color: rgb(88, 168, 248);
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.CreateNoteBtn:hover {
+  background: rgb(46, 145, 245);
+  color: white;
+}

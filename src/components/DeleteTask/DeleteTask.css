@@ -1,0 +1,74 @@
+.DeleteTask {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(236, 156, 156, 0),
+    rgb(101, 246, 246)
+  );
+  height: 57.9vh;
+  padding: 91px 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 6px rgb(233, 226, 226);
+}
+
+.DelQuestion {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 70px;
+}
+
+.DelNoteContent {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 70px;
+}
+
+.DeleteBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.DeleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 42px;
+  outline: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid rgb(78, 78, 78);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.NoDeleteButton {
+  background-color: rgb(88, 168, 248);
+}
+
+.NoDeleteButton:hover {
+  background-color: rgb(46, 145, 245);
+  color: white;
+  border: 2px solid rgb(46, 145, 245);
+}
+
+.YesDeleteButton {
+  background-color: rgb(255, 62, 62);
+}
+
+.YesDeleteButton:hover {
+  background-color: rgb(237, 40, 40);
+  color: white;
+  border: 2px solid rgb(255, 62, 62);
+}

@@ -1,0 +1,93 @@
+.Home {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(236, 156, 156, 0),
+    rgb(101, 246, 246)
+  );
+  min-height: 90.9vh;
+  display: flex;
+}
+
+.HomeNotes {
+  font-weight: bold;
+  cursor: default;
+  color: black;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 80px;
+  left: 30.5%;
+  position: absolute;
+}
+
+.NoteList {
+  margin-top: 140px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.NoNotesFound {
+  font-size: 2vh;
+  padding-top: 5vh;
+  font-weight: 100;
+  color: black;
+}
+
+.Note {
+  padding: 30px 0px;
+  padding-left: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(216, 207, 207);
+  margin-bottom: 5px;
+}
+
+.NoteContent {
+  cursor: default;
+}
+
+.DelIcon {
+  color: rgba(43, 43, 43);
+  padding: 0;
+  margin-right: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.DelIcon:hover {
+  color: red;
+}
+
+.Note:hover {
+  box-shadow: 1px 1px 20px rgb(152, 151, 151);
+}
+
+.AddBtn {
+  background-color: rgb(88, 168, 248);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  padding-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: all 0.4s;
+  position: fixed;
+  right: 35px;
+  bottom: 130px;
+}
+
+.AddBtn:hover {
+  background: none;
+  color: rgb(46, 145, 245);
+  border: 3px solid rgb(46, 145, 245);
+  box-shadow: 1px 1px 20px rgb(32, 32, 32);
+}

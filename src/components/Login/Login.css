@@ -1,0 +1,132 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(236, 156, 156, 0),
+    rgb(101, 246, 246)
+  );
+  color: rgb(14, 14, 13);
+  height: 500px;
+
+  box-shadow: 2px 2px 5px black;
+  padding-top: 0px;
+  padding-bottom: 1px;
+}
+
+.LoginHead {
+  margin: 20px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: default;
+  height: 30px;
+  text-align: center;
+}
+
+.LoginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  margin: 10px 100px;
+}
+
+.LoginContainer {
+  width: auto;
+  height: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 60px;
+  box-shadow: 2px 2px 4px;
+}
+
+.LoginTitle {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  font-size: 25px;
+  margin-top: 20px;
+  justify-content: flex-start;
+  color: rgba(81, 255, 0, 0.877);
+  margin-left: 100px;
+  text-shadow: 1px 1px gray;
+}
+
+.FormUsername {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.FormPassword {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.FormLabel {
+  font-size: 20px;
+  margin-bottom: 15px;
+  cursor: default;
+}
+
+.FormInput {
+  height: 35px;
+  width: 300px;
+  text-align: center;
+  border: 2px solid rgb(46, 145, 245);
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+.FormBtns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FormUsername:hover {
+  transform: scale(1.1);
+}
+
+.FormPassword:hover {
+  transform: scale(1.1);
+}
+
+.Btns {
+  padding: 7px 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  background-color: rgb(88, 168, 248);
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: all 0.4s;
+}
+
+.Btns:hover {
+  background: rgb(46, 145, 245);
+  color: rgb(241, 244, 245);
+}
+
+.registerBtn {
+  background-color: rgb(88, 168, 248);
+}
+
+.registerBtn:hover {
+  color: red;
+  background: rgb(46, 145, 245);
+}
